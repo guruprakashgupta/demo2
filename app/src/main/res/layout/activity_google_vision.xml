@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guruprakash.demo2.google_vision">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <fragment
+        android:id="@+id/barcode_scanner"
+        android:name="info.androidhive.barcode.BarcodeReader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:use_flash="false" />
+
+</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/topbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        app:srcCompat="@drawable/shape" />
+
+    <ImageView
+        android:id="@+id/scan_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/shape"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/scan_product" />
+
+    <ImageView
+        android:id="@+id/shopping_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/scan_product"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        app:srcCompat="@drawable/shopping_cart" />
+
+    <ImageView
+        android:id="@+id/big_rectangle"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/topbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/rectangle_8" />
+
+    <ImageView
+        android:id="@+id/rectangle3"
+        android:layout_width="132dp"
+        android:layout_height="23dp"
+        android:layout_alignBottom="@+id/big_rectangle"
+        android:layout_alignStart="@id/big_rectangle"
+        android:layout_marginLeft="84dp"
+        android:layout_marginBottom="138dp"
+        app:srcCompat="@drawable/rectangle_3" />
+
+    <ImageView
+        android:id="@+id/barcode_not_scanning"
+        android:layout_width="114dp"
+        android:layout_height="13dp"
+        android:layout_below="@id/topbar"
+        android:layout_alignStart="@id/big_rectangle"
+        android:layout_marginTop="148dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="93dp"
+        app:srcCompat="@drawable/barcode_not_scanning" />
+
+<TextView
+    android:id="@+id/EditText2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/big_rectangle"
+    android:layout_centerInParent="true"/>
+
+
+
+
+
+
+
+</RelativeLayout>

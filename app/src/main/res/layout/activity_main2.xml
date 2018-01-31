@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whats_app_image_2017_09_25_at_11_11_51"
+    tools:context="com.example.guruprakash.demo2.Main2Activity">
+
+
+        <ImageView
+            android:id="@+id/topbar"
+            android:layout_width="360dp"
+            android:layout_height="94dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/scan_product"
+        android:layout_width="109dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignBottom="@+id/topbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/scan_product" />
+
+    <Button
+        android:id="@+id/shape"
+        android:layout_width="12.3dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/topbar"
+        android:layout_alignStart="@+id/topbar"
+       android:layout_marginTop="49dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="327.7dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/shape" />
+
+    <ImageView
+        android:id="@+id/oval"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/topbar"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="308dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginVertical="10dp"
+        app:srcCompat="@drawable/oval" />
+
+    <Button
+        android:id="@+id/cart"
+        android:layout_width="22.3dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginLeft="317dp"
+        android:layout_marginRight="20.7dp"
+
+        android:layout_alignEnd="@+id/topbar"
+        android:layout_alignRight="@+id/topbar"
+        android:background="@drawable/shopping_cart" />
+
+    <ImageView
+        android:id="@+id/product_info"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="11dp"
+        android:layout_alignBottom="@+id/oval"
+        android:layout_alignLeft="@+id/oval"
+        android:layout_alignStart="@+id/oval"
+        app:srcCompat="@drawable/product_info" />
+
+    <ImageView
+        android:id="@+id/small_rectangle"
+        android:layout_width="263dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/topbar"
+        android:layout_marginVertical="19dp"
+        android:layout_marginLeft="42dp"
+        app:srcCompat="@drawable/rectangle_5" />
+
+    <ImageView
+        android:id="@+id/text1"
+        android:layout_width="247dp"
+        android:layout_height="13dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignTop="@+id/small_rectangle"
+        app:srcCompat="@drawable/product_info_will_be" />
+
+    <ImageView
+        android:id="@+id/rectangle2"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/rectangle_2" />
+
+    <ImageView
+        android:id="@+id/text2"
+        android:layout_width="310dp"
+        android:layout_height="14dp"
+
+        android:layout_alignEnd="@+id/big_rectangle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/big_rectangle"
+        android:layout_marginBottom="11dp"
+
+        app:srcCompat="@drawable/point_camera_towards" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="7dp"
+        android:layout_height="14dp"
+        android:layout_alignTop="@+id/shape"
+        android:layout_alignEnd="@+id/product_info"
+        android:layout_alignRight="@+id/product_info"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="320dp"
+        android:text="0"
+        android:textSize="10dp"
+        android:gravity="center_horizontal"
+
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/big_rectangle"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+
+        android:layout_below="@+id/small_rectangle"
+        android:layout_marginTop="85dp"
+        app:srcCompat="@drawable/rectangle_8" />
+
+    <ImageView
+        android:id="@+id/rectangle3"
+        android:layout_width="132dp"
+        android:layout_height="23dp"
+        android:layout_below="@id/small_rectangle"
+      android:layout_alignStart="@id/big_rectangle"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="72.5dp"
+
+        app:srcCompat="@drawable/rectangle_3" />
+
+    <ImageView
+        android:id="@+id/barcode_not_scanning"
+        android:layout_width="114dp"
+        android:layout_height="13dp"
+      android:layout_alignStart="@id/big_rectangle"
+     android:layout_below="@id/small_rectangle"
+        android:layout_marginTop="78dp"
+        android:layout_marginLeft="93dp"
+
+        app:srcCompat="@drawable/barcode_not_scanning" />
+
+
+</RelativeLayout>
